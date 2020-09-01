@@ -6,7 +6,9 @@ It is also very lightweight and can be used for multiple use-cases.
 
 ## Metrics
 
-// To be done.
+| Version | Training accuracy | Validation accuracy | Testing accuracy |
+|---------|-------------------|---------------------|------------------|
+| 1.0     | 100%              | 91%                 | To be done.      |
 
 ## Implementation
 
