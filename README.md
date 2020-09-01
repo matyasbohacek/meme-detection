@@ -1,10 +1,5 @@
 # Meme detection
 
-A machine learning model trained to classify memes and photos from images
-
-
-# Meme detection
-
 Machine learning model trained to classify memes from images. The model has been trained on a dataset of several thousand annotated images and can label an image as either `meme` or `photo`.
 
 It is also very lightweight and can be used for multiple use-cases.
