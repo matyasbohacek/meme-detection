@@ -12,10 +12,17 @@ It is also very lightweight and can be used for multiple use-cases.
 
 ### Usage in Python
 
-To use the model in your Python project, make sure to install **coremltools** package first. Then, you can simply use the following snippet to envoke the model:
+To use the model in your Python project, make sure to install **coremltools** and **Pillow** packages first. Then, you can simply use the following snippet to envoke the model:
 
 ```python
+import coremltools
+from PIL import Image
 
+model = coremltools.models.MLModel('meme-detection.mlmodel')
+image = Image.open("source_file.png")
+
+result = model.predict({"image": image})
+result_label = result["classLabel"]
 ```
 
 ### Usage in Swift
